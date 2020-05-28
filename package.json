@@ -1,0 +1,22 @@
+{
+    "name": "webtalks-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": "git@github.com:JoaoEd/webtalks-typescript.git",
+    "author": "joaoed <joaoeduardo.dias.silva@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "http-server": "^0.12.3",
+        "typescript": "^3.9.3"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "prettier": "2.0.5"
+    },
+    "scripts": {
+        "start": "npx http-server"
+    }
+}
